@@ -42,7 +42,7 @@ public class CustomerDatabase {
 
     public static void main(String[] args) {
         CustomerDatabase customers = new CustomerDatabase();
-        customers.readCustomerData("records/Customerrecords.txt");
+        customers.readCustomerData("Lab10/records/Customerrecords.txt");
 
         System.out.println("\nSearching for Jack King..." + 
             "\n============================");

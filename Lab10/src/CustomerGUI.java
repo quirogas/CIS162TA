@@ -205,7 +205,7 @@ public class CustomerGUI extends JFrame  implements ActionListener{
         // did the user select a file?
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             String filename = fc.getSelectedFile().getName();
-            System.out.println("records/" + filename);
+            System.out.println("Lab10/records/" + filename);
             db.readCustomerData("records/" + filename);
         }
     }
